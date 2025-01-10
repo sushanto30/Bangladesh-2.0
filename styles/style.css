@@ -5,6 +5,8 @@
 
 body {
     margin: 5px 160px;
+    background-color: #e1e0e080;
+    /* color: #0E0E0E; */
 }
 
 /* shard style */
@@ -70,12 +72,12 @@ body {
 
 /* vision-containar */
 
-.vision-containar {
+.container {
     margin-top: 70px;
 
 }
 
-.vision-tittle {
+.tittle {
     font-size: 40px;
     font-weight: 700;
     color: #0E0E0E;
@@ -93,6 +95,7 @@ body {
     /* gap: 5px; */
     /* border: 2px solid red; */
 }
+
 .vision-card-2 {
     width: 330px;
     height: 240px;
@@ -101,7 +104,7 @@ body {
     padding: 24px;
     background-color: #C6E4D6;
 }
-    
+
 .vision-card-3 {
     width: 330px;
     height: 240px;
@@ -133,6 +136,7 @@ body {
     font-size: 12px;
     font-weight: 600;
 }
+
 .card-btn-2 {
     margin-top: 16px;
     padding: 7px 15px;
@@ -143,6 +147,7 @@ body {
     font-size: 12px;
     font-weight: 600;
 }
+
 .card-btn-3 {
     margin-top: 16px;
     padding: 7px 15px;
@@ -165,4 +170,48 @@ body {
 
 .card-3 {
     background-color: #F7EBCF;
+}
+
+/* resent news  */
+
+.news-card {
+    display: flex;
+    padding: 48px;
+    margin-top: 24px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* text-align: center; */
+}
+
+.news-pic {
+    border-radius: 16px;
+    margin-right: 24px;
+    width: 350px;
+    height: 250px;
+}
+
+.news-despription {
+    padding-top: 10px;
+    /* margin-top: ; */
+}
+
+.news-tittle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.news-pic-2 {
+    width: 100px;
+    height: 30px;
+    margin-top: 7px;
+}
+
+.date-time {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+    margin-bottom: 12px;
 }
