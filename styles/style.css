@@ -30,6 +30,21 @@ body {
     color: #0E0E0E80;
 }
 
+/* nav section */
+.nav-container {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 24px 160px 24px 160px; */
+
+}
+
+.ban {
+    font-size: 32px;
+    font-weight: 700;
+}
+
 /* banner style */
 
 .banner-tittle {
@@ -54,6 +69,7 @@ body {
 
 .banner-containar {
     background-color: #C6E4D6;
+    margin-top: 24px;
     padding: 50px;
     border-radius: 15px;
     /* height: 672px; */
@@ -342,7 +358,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom:2px;
+    margin-bottom: 2px;
 }
 
 
