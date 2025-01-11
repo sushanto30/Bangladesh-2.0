@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,8 @@
 body {
     margin: 5px 160px;
     background-color: #e1e0e080;
-    /* color: #0E0E0E; */
+
+    font-family: "Fira Sans", serif;
 }
 
 /* shard style */
@@ -33,10 +38,10 @@ body {
 /* nav section */
 .nav-container {
     display: flex;
-    /* flex-direction: row; */
+
     justify-content: space-between;
     align-items: center;
-    /* padding: 24px 160px 24px 160px; */
+
 
 }
 
@@ -48,12 +53,12 @@ body {
 /* banner style */
 
 .banner-tittle {
-    /* border: 2px solid red; */
+
     height: 20px;
     font-size: 16px;
     font-weight: 500;
     color: #0E0E0E80;
-    /* line-height: 34px; */
+
 }
 
 .banner-subtittle {
@@ -61,9 +66,8 @@ body {
     font-size: 40px;
     font-weight: 700;
     color: #0E0E0E;
-    /* line-height: 67px; */
-    /* width:622px;
-    height:201px; */
+
+
 }
 
 
@@ -105,11 +109,10 @@ body {
     width: 330px;
     height: 240px;
     border-radius: 8px;
-    /* margin-top: 20px; */
     padding: 24px;
     background-color: #5490F533;
-    /* gap: 5px; */
-    /* border: 2px solid red; */
+
+    
 }
 
 .vision-card-2 {
@@ -176,8 +179,7 @@ body {
 }
 
 .card-container {
-    /* margin: 0; */
-    /* gap: 5px; */
+   
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -196,10 +198,7 @@ body {
     margin-top: 24px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
-    /* border: 2px solid red; */
-    /* justify-content: center; */
-    /* justify-items: center; */
-    /* text-align: center; */
+    
 }
 
 .news-card-2 {
@@ -209,10 +208,7 @@ body {
     margin-top: 24px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
-    /* border: 2px solid red; */
-    /* justify-content: center; */
-    /* justify-items: center; */
-    /* text-align: center; */
+    
 }
 
 .news-pic {
@@ -231,7 +227,7 @@ body {
 
 .news-despription {
     padding-top: 10px;
-    /* margin-top: ; */
+     
 }
 
 .news-tittle {
@@ -284,11 +280,7 @@ body {
     /* justify-content: space-evenly; */
 }
 
-/* .Donate-btn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
+ 
 
 .Donate-input {
     text-align: center;
@@ -308,9 +300,7 @@ body {
     background-color: #C6E4D6;
     height: 280px;
     padding: 120px 50px;
-    /* margin: auto; */
-    /* justify-content: center; */
-    /* justify-items: center; */
+    
     border-radius: 15px;
 
 }
@@ -320,8 +310,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* text-align: center; */
-    /* justify-items:center; */
+   
 }
 
 
@@ -361,7 +350,19 @@ body {
     margin-bottom: 2px;
 }
 
+footer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
 
+}
+
+.footer-tittle {
+    font-size: 25px;
+    font-weight: 700;
+}
 
 
 
