@@ -286,6 +286,47 @@ body {
     font-weight: 400;
 }
 
+.Newsletter{
+    text-align: center;
+    margin-top: 70px;
+    background-color: #C6E4D6;
+    height: 280px;
+    padding: 120px 50px;
+    /* margin: auto; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    border-radius: 15px;
+
+}
+
+.news-btn-input{
+    /* margin-top: 8px; */
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    /* text-align: center; */
+    /* justify-items:center; */
+}
+
+
+.newsletter-input{
+    width:500px;
+    height:45px;
+    margin-top: 20px;
+    border-style: none;
+    padding:5px;
+    border-radius: 8px 0 0 8px;
+}
+.spam{
+    margin-top: 16px;
+}
+
+
+
+
+
+
+
 .all-btn:hover{
     background-color: blueviolet;
 }
